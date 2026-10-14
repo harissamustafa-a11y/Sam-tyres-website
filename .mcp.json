@@ -18,6 +18,15 @@
         "--executable-path",
         "/opt/pw-browsers/chromium"
       ]
+    },
+    "watch-skill": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "watch-skill[standard]",
+        "watch-skill",
+        "serve"
+      ]
     }
   }
 }
